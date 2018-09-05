@@ -1,0 +1,9 @@
+$align: center;
+
+@mixin aligntext($aligns) {
+	text-align: $aligns;
+}
+
+#heading { @include aligntext($align);}
+
+#havepepsi { @include aligntext($align);}
